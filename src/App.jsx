@@ -71,38 +71,42 @@ function App() {
         </motion.h1>
         {/* Box Kutipan */}
         <div
-  className="relative flex flex-col items-center justify-center mb-8 w-full"
-  style={{ maxWidth: '1076px', minHeight: '220px', height: 'clamp(220px, 40vw, 400px)' }}
+  className="relative flex flex-col items-center justify-center mb-8 w-full px-4"
+  style={{ maxWidth: '1076px' }}
 >
   <div
-    className="w-full h-full flex flex-col items-center justify-center rounded-3xl shadow-2xl border-4 border-yellow-300/80 bg-white/60 backdrop-blur-sm transition-all duration-500 px-6 py-4"
+    className="w-full flex flex-col items-center justify-center rounded-3xl shadow-2xl border-4 border-yellow-300/80 bg-white/60 backdrop-blur-sm px-6 py-6 transition-all duration-500"
     style={{ boxShadow: '0 8px 32px 0 rgba(255, 193, 7, 0.15)' }}
   >
-    {/* KUTIPAN UTAMA */}
+    {/* Kutipan utama */}
     <p
-      className="italic text-center text-gray-800 font-semibold px-4 md:px-8"
+      className="italic text-center text-gray-800 font-semibold"
       style={{
-        fontSize: 'clamp(1.1rem, 2vw, 2.2rem)',
-        lineHeight: 1.4,
+        fontSize: 'clamp(1.1rem, 2vw, 2.1rem)',
+        lineHeight: 1.6,
         textShadow: '0 2px 8px rgba(255,255,255,0.5)',
         letterSpacing: '0.01em',
+        maxWidth: '800px',
       }}
     >
-      "Dulu Kami Juga memilki cerita dunia malam yang hebat, Tapi kami sekarang sudah di buku yang baru yang jauh lebih baik, Dengan judul yang berbeda beda"
+      "Dulu Kami Juga memiliki cerita dunia malam yang hebat, Tapi kami sekarang sudah di buku yang baru yang jauh lebih baik, Dengan judul yang berbeda-beda"
     </p>
 
-    {/* TEKS TAMBAHAN */}
+    {/* Tambahan teks */}
     <p
       className="mt-15 text-center text-black-900 font-extrabold uppercase tracking-wide"
       style={{
-        fontSize: 'clamp(1rem, 1.4vw, 1.5rem)',
-        textShadow: '0 1px 4px rgba(0, 0, 0, 0.4)',
+        fontSize: 'clamp(0.9rem, 1.5vw, 1.4rem)',
+        textShadow: '0 1px 4px rgba(255,255,255,0.4)',
+        wordBreak: 'break-word',
+        maxWidth: '800px',
       }}
     >
-      SEHAT SELALU KAWAN DI MANA KALIAN BERADA.
+      #SEHAT SELALU KAWAN DI MANA KALIAN BERADA.
     </p>
   </div>
 </div>
+
 
         {/* Foto-foto */}
         <div className="w-full max-w-3xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8 px-2">
