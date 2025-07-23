@@ -94,8 +94,9 @@ function App() {
 
     {/* Tambahan teks */}
     <p
-      className="mt-15 text-center text-black-900 font-extrabold uppercase tracking-wide"
-      style={{
+      
+        className="mt-12 text-center text-black font-extrabold uppercase tracking-wide"
+        style={{
         fontSize: 'clamp(0.9rem, 1.5vw, 1.4rem)',
         textShadow: '0 1px 4px rgba(255,255,255,0.4)',
         wordBreak: 'break-word',
